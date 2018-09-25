@@ -1,5 +1,6 @@
-install.packages("dslabs")
 library(dslabs)
+library(dplyr)
+library(tidyverse)
 data(gapminder)
 
 p <- gapminder %>% filter(year %in% c("1960","2010")) %>% 
