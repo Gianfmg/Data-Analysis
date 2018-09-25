@@ -9,5 +9,6 @@ p <- gapminder %>% filter(year %in% c("1960","2010")) %>%
   facet_grid(.~year) +
   xlab("Fertility (childs per family)") +
   ylab("Life Expectancy (years)") +
-  ggtitle("Evolution between Fertility and Life Expectancy in the World")
+  ggtitle("Evolution between Fertility and Life Expectancy in the World") +
+  labs(colour="Continents")
 
