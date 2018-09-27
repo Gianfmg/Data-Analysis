@@ -11,4 +11,4 @@ p <- gapminder %>% filter(year %in% c("1960","2010")) %>%
   ylab("Life Expectancy (years)") +
   ggtitle("Evolution between Fertility and Life Expectancy in the World") +
   labs(colour="Continents")
-
+p
